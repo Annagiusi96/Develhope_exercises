@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Form</title>
+    <style>
+      label {
+        display: block;
+        margin: 7px 0;
+      }
+      fieldset{
+        margin: 15px 340px;
+      }
+      button{    
+          padding: 5px;
+          width: 76px;
+          border-radius: 7px;
+          border: none;
+          background: #00000033;
+          margin-top: 21px;
+          margin-left: 97px;
+          margin: 10px 625px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Inserisci email e password</legend>
+          <div>
+            <label for="email">Email <abbr title="Inserisci un email corretta">*</abbr></label>
+            <input type="email" name="email" placeholder="email@esempio.com" required>
+          </div>
+          <div>
+            <label for="password">Password <abbr title="Inserisci una password di 6 o più caratteri">*</abbr></label>
+            <input type="password" name="password" required pattern=".{6,}">
+          </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Inserisci i dati anagrafici</legend>
+        <div>
+          <label for="first_name">Nome <abbr title="obbligatorio">*</abbr></label>
+          <input type="text" name="first_name" required pattern="[A-Za-z]+" maxlength="20" minlength="2">
+        </div>
+        <div>
+          <label for="last_name">Cognome <abbr title="obbligatorio">*</abbr></label>
+          <input type="text" name="last_name" required pattern="[A-Za-z]+" maxlength="20" minlength="2" >
+        </div>
+        <div>
+          <label for="birth">Data di nascita <abbr title="obbligatorio">*</abbr></label>
+          <input type="date" name="birth" required>
+        </div>
+        <div>
+          <label for="phone">Numero di cellulare <abbr title="Inserisci un numero a 10 cifre">*</abbr></label>
+          <input type="tel" name="phone" pattern="[0-9]{10}" required placeholder="123 456 7890">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Scegli il piano che fa per te! <abbr title="obbligatorio">*</abbr></legend>
+         <select name="piano">
+              <option value="free">Piano gratuito</option>
+              <option value="19€">19€ al mese</option>
+              <option value="39€">39€ al mese</option>
+              <option value="59€">59€ al mese</option>
+         </select>
+         <label for="pro">Seleziona se vuoi aderire al piano Pro <abbr title="Il piano Pro aggiunge ulteriori vantaggi"><sup>?</sup></abbr></label>
+         <input type="checkbox" name="pro" value="accepted-pro">
+      </fieldset>
+
+      <fieldset>
+        <legend>Dati carta di credito</legend>
+        <div>
+          <label for="ccnum">Numero carta di credito <abbr title="obbligatorio">*</abbr></label>
+          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+        </div>
+        <div>
+          <label for="cvv">CVV <abbr title="obbligatorio">*</abbr></label>
+          <input type="text" id="cvv" name="cvv" placeholder="352">
+        </div>
+        <div>
+          <label for="date">Data di scadenza</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <div>
+          <label for="address">Indirizzo di fatturazione <abbr title="obbligatorio">*</abbr></label>
+          <input type="text" id="address" name="address" placeholder="Via esempio, numero civico">
+        </div>
+
+      </fieldset>
+      <button>Invia</button>
+
+
+
+    </form>
+
+  
+
+
+
+  </body>
+</html>

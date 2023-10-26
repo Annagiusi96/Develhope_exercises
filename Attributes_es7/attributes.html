@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes</title>
+</head>
+<style>
+    *{
+        font-size: 25px;
+    }
+    div{
+        margin: 20px;
+    }
+    label{
+        margin-right: 15px;
+    }
+</style>
+<body>
+<section>
+    <div>
+        <label for="button">Button</label>
+        <button disabled name="button">Bottone disabilitato</button>
+    </div>
+    <div>
+        <label for="range">Range 0-100 with double step</label>
+        <input type="number" min="0" max="100" step="2" autofocus name="range">
+    </div>
+    <div>
+        <label for="checkbox">Checkbox checked</label>
+        <input type="checkbox" checked name="checkbox">
+    </div>
+    <div>
+        <label for="date">Date type</label>
+        <input type="date" name="date">
+    </div>
+</section>
+</body>
+</html>

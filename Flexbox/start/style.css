@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #2b2b2b;
+    transition: 0.3s;
+   
+}
+a:hover{
+    color: #2b2bb2;
+    text-decoration: underline;
+}
+aside{
+    height: 100vh;
+    width: 200px;
+    background-image: linear-gradient(white, green);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.aside-logo{
+    background-image: url("FELV-cat.jpg");
+    background-size: cover;
+    background-position: -9px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.aside-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.3;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.avatar{
+    background-image: url("4773704-una-faccia-da-ragazza-con-un-bellissimo-sorriso-un-avatar-femminile-per-un-sito-web-e-un-social-network-vettoriale.jpg");
+    background-size: cover;
+    background-position: center -2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.aside-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 120px;
+}

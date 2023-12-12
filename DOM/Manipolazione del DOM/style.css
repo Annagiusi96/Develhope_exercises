@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    margin: 5px;
+}
+input{
+    padding: 5px;
+    width: 70%;
+}
+button{
+    padding: 8px;
+    background-color: beige;
+    border: none;
+}
+ul{
+    margin-top: 20px;
+}
+.to-do-list{
+    list-style: none;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 5px;
+    margin-top: 5px;
+}
+.container-out{
+    width: 35%;
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding: 10px;
+}

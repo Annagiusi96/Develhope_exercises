@@ -1,0 +1,68 @@
+body {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/c5/LotR21.png');
+    background-position-x: 40px;
+    color: white;
+    font-family: math;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+}
+
+.container-out {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 10px;
+}
+
+.card {
+    text-align: center;
+    margin-top: 104px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-right: 232px;
+    font-size: 50px;
+
+    letter-spacing: 5px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    padding: 7px;
+    width: 98px;
+}
+
+input {
+    padding: 7px;
+}
+
+p {
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 74px;
+    left: 859px;
+    right: 207px;
+}

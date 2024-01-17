@@ -2,7 +2,7 @@ import { Welcome } from "./Welcome"
 
 
 function App() {
-  return <Welcome name="Manfri" ageApp={22} color="red"/>
+  return <Welcome name="Manfri" ageApp={22}/>
 }
 
 //se do un valore di defaul al prop name del componente Welcome e qui non setto nessun nuovo valore, 

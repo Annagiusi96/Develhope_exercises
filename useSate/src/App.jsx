@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Counter } from './Counter'
 import { CounterEs2 } from './CounterEs2'
 import { Clock } from './Clock'
+import { MouseClicker } from './MouseClicker'
 
 
 
@@ -18,6 +19,9 @@ function App() {
 
       {/* useEffect esercizio 2 */}
       <Clock/>
+
+      {/* Handling Events - 1 */}
+      <MouseClicker/>
     </>
   )
 }

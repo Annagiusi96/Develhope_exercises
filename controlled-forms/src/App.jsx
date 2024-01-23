@@ -1,6 +1,7 @@
 
 import { InteractiveWelcome } from "./InteractiveWelcome";
 import { Login } from "./Login";
+import { LoginButton } from "./LoginButton";
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <InteractiveWelcome/>
       
       <Login/>
+
+      <LoginButton/>
     </>
   )
 }

@@ -1,18 +1,18 @@
 import { useEffect, useRef } from "react"
 
 export function Useref2(){
-const printRef = useRef(false);
+const printRef = useRef(null);
 
 useEffect(()=>{
-    if (!printRef.current) {
-        printRef.current = true;
+    if (printRef.current != null) {
+        printRef.current = null;
         console.log('First');
     }
 },[])
 
     return (
     <>
-    <h2>Useref two</h2>
+    <h2 ref={printRef}>Useref two</h2>
     </>
     )
 }

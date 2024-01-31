@@ -1,4 +1,5 @@
 import { Colors } from "./Colors"
+import { TodoList1 } from "./TodoList1"
 
 function App() {
   const colorArr = [
@@ -11,7 +12,9 @@ function App() {
 ]
   return (
     <>
-      <Colors colorArr={colorArr}/>
+      {/* <Colors colorArr={colorArr}/> */}
+
+      <TodoList1></TodoList1>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import { Colors } from "./Colors"
 import { TodoList1 } from "./TodoList1"
+import { TodoListRemove } from "./TodoListRemove"
 import { TodoListReset } from "./TodoListReset"
 
 function App() {
@@ -15,9 +16,11 @@ function App() {
     <>
       {/* <Colors colorArr={colorArr}/> */}
 
-      <TodoList1></TodoList1>
+      {/* <TodoList1></TodoList1>
 
-      <TodoListReset></TodoListReset>
+      <TodoListReset></TodoListReset> */}
+
+      <TodoListRemove></TodoListRemove>
     </>
   )
 }

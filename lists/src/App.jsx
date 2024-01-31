@@ -1,5 +1,6 @@
 import { Colors } from "./Colors"
 import { TodoList1 } from "./TodoList1"
+import { TodoListReset } from "./TodoListReset"
 
 function App() {
   const colorArr = [
@@ -15,6 +16,8 @@ function App() {
       {/* <Colors colorArr={colorArr}/> */}
 
       <TodoList1></TodoList1>
+
+      <TodoListReset></TodoListReset>
     </>
   )
 }

@@ -20,7 +20,9 @@ function App() {
 
       <TodoListReset></TodoListReset> */}
 
-      <TodoListRemove></TodoListRemove>
+      {/* <TodoListRemove></TodoListRemove> */}
+
+      <TodoListReset></TodoListReset>
     </>
   )
 }

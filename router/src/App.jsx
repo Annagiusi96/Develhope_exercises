@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Link, Route, Routes } from "react-router-dom"
 import { Welcome } from "./es1/Welcome"
 import { Counter } from "./es2/Counter"
 import { ShowGithubUser } from "./es3/ShowGithubUser"
@@ -15,6 +15,12 @@ function App() {
           <Route path=":username" element={<GithubUser />}/>
         </Route>
       </Routes>
+
+    <div className="links">
+      <Link to="/">Welcome</Link>
+      <Link to="/counter">Counter</Link>
+      <Link to="/users">Github Users</Link>
+    </div>
     </>
   )
 }

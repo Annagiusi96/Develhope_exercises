@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function GithubUser({username}){
+export function GithubUser(){
     const [userData, setUserData] = useState(null);
 
     async function getData(){

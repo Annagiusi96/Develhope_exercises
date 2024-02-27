@@ -3,7 +3,7 @@ ADD COLUMN genre TEXT
 
 ////////////////////////////////
 
-insert into books (title, author, genre, published, isbn, price, rating, stock_count, publisher, number_pages)
+insert into books (title, author, genre, published_year, isbn, price, rating, stock_count, publisher, number_pages)
 VALUES ('A Journey to the Center', 'Jules Verne', 'Adventure', 1864, 1234567890123, 12.99, 4.5, 10, 'Verne Publishing', 350)
 
 ////////////////////////////////

@@ -1,0 +1,10 @@
+//avvio il repl di node.js
+$ node
+
+//importo il modulo crypto
+const crypto = require('crypto')
+
+//genero id casuale
+const randomId = crypto.randomUUID();
+randomId
+'5c60901f-935d-42b6-8317-5b3b80d34b91'
